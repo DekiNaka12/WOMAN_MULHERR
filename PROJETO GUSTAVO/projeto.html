@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feliz Dia da Mulher</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="background-glow"></div>
+  <div class="petalas" id="petalas"></div>
+  <div class="coracoes" id="coracoes"></div>
+
+  <main class="pagina">
+    <section class="card">
+      <span class="badge">Uma homenagem especial</span>
+
+      <h1>Feliz Dia da Mulher</h1>
+      <p class="subtitulo" id="textoDigitando"></p>
+
+      <div class="slider">
+        <div class="slides" id="slides">
+          <img src="Fotos/Foto1.jpeg" alt="Foto 1">
+          <img src="Fotos/Foto2.jpeg" alt="Foto 2">
+          <img src="Fotos/Foto3.jpeg" alt="Foto 3">
+          <img src="Fotos/Foto4.jpeg" alt="Foto 4">
+          <img src="Fotos/foto5.jpeg" alt="Foto 5">
+        </div>
+      </div>
+
+      <div class="indicadores">
+        <span class="dot ativo" data-slide="0"></span>
+        <span class="dot" data-slide="1"></span>
+        <span class="dot" data-slide="2"></span>
+        <span class="dot" data-slide="3"></span>
+        <span class="dot" data-slide="4"></span>
+      </div>
+
+      <div class="texto">
+        <p>
+          Hoje é um dia para celebrar a força, a beleza, a sensibilidade e a luz que tornam uma mulher inesquecível.
+        </p>
+
+        <p>
+          Existem pessoas que carregam um brilho tão próprio que deixam tudo mais bonito sem esforço algum.
+        </p>
+
+        <p>
+          Que nunca faltem motivos para sorrir, sonhar, conquistar e continuar iluminando o mundo com sua presença.
+        </p>
+
+        <p class="destaque">Feliz Dia da Mulher 💜</p>
+
+        <p class="assinatura">Com carinho.</p>
+      </div>
+
+      <div class="flor-area">
+        <img src="Fotos/flor.jpeg" alt="Flor decorativa" class="flor">
+      </div>
+
+      <div class="controles">
+        <button id="botaoMusica" class="botao" type="button">▶ Ativar música</button>
+        <button id="botaoEfeitos" class="botao secundario" type="button">🌸 Pausar efeitos</button>
+      </div>
+    </section>
+  </main>
+
+  <audio id="musica" loop>
+    <source src="musica.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
